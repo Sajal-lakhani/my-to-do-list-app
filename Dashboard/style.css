@@ -1,0 +1,13 @@
+body{background:#fdf6e3; font-family: sans-serif; display:flex; justify-content:center; padding:20px;}
+.card{background:#fff9e6; padding:20px; border-radius:15px; width:100%; max-width:380px; box-shadow:0 4px 10px rgba(0,0,0,0.1);}
+h1{text-align:center; margin:0;}
+.sub{text-align:center; color:#888; font-size:14px;}
+.input-row{display:flex; gap:8px; margin:15px 0;}
+input{flex:1; padding:12px; border-radius:8px; border:1px solid #ddd;}
+button{background:#5a3e36; color:white; border:none; padding:0 15px; border-radius:8px; cursor:pointer;}
+.info-row{display:flex; justify-content:space-between; background:#f5e6c8; padding:8px 12px; border-radius:20px; font-size:13px; margin-bottom:10px;}
+.clear{cursor:pointer; font-weight:bold;}
+.task{display:flex; justify-content:space-between; align-items:center; background:white; padding:10px; border-radius:8px; margin-bottom:8px;}
+.task.completed span{text-decoration:line-through; color:#aaa;}
+.task button{background:#f5e6c8; color:#5a3e36; width:30px; height:30px; border-radius:6px;}
+.bottom-btn{width:100%; background:#5a3e36; padding:12px; margin-top:10px; border-radius:8px;}

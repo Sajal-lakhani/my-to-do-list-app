@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My To-Do List - Sejal B7-289</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+  <h1>📝 My To-Do List</h1>
+  <p class="sub">Small steps. One task at a time.</p>
+
+  <div class="input-row">
+    <input id="taskInput" type="text" placeholder="What do you need to do?">
+    <button onclick="addTask()">Add Task</button>
+  </div>
+
+  <div class="info-row">
+    <span id="count">0 tasks remaining</span>
+    <span onclick="clearCompleted()" class="clear">Clear Completed</span>
+  </div>
+
+  <div id="taskList"></div>
+
+  <button class="bottom-btn" onclick="clearCompleted()">Clear completed tasks</button>
+  <p style="text-align:center; font-size:12px; margin-top:10px;">Do Things Mindfully - Sejal B7-289</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
